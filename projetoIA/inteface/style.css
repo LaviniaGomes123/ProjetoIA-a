@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a1f3c;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+/* Cabeçalho */
+header{
+    background-color: #0474c4;
+    padding: 50px;
+    text-align:left;
+}
+
+/* Título Cabeçalho */
+header h1{
+    color: #a8c4ec;
+    font-size: 50px;
+    text-align: left;
+}
+
+/*Area do formulário*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); 
+    padding: 30px 0;
+}
+/* Container do formulário */
+.container{
+    
+    background-color:#a8c4ec;
+    width: 600px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+    
+}
+/* Título do formulário */
+.tituloForm{
+    background-color: #e9ecef;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+/* Centraliza itens dentro do formulario */
+form {
+      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+/* Botão de enviar formulario */
+button {
+    background-color: #06547f;
+    color:#a8c4ec;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*rodape*/
+footer {
+    background-color: #0474c4;
+    color:#a8c4ec;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
